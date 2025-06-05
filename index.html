@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AtomTech - Criação de Sites e Automação</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            color: #333;
+            scroll-behavior: smooth;
+        }
+
+        header {
+            background: linear-gradient(135deg, #000, #333);
+            color: #fff;
+            padding: 50px 20px;
+            text-align: center;
+            animation: fadeInDown 1s ease;
+        }
+
+        @keyframes fadeInDown {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        nav {
+            background-color: #111;
+            padding: 10px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: red;
+        }
+
+        section {
+            padding: 50px 20px;
+            max-width: 1000px;
+            margin: auto;
+            animation: fadeInUp 1s ease;
+        }
+
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        h2 {
+            color: #000;
+            margin-bottom: 20px;
+        }
+
+        .service {
+            margin-bottom: 30px;
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+
+        .service:hover {
+            transform: translateY(-5px);
+        }
+
+        footer {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 20px;
+            background-color: red;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        .cta-button:hover {
+            background-color: darkred;
+            transform: scale(1.05);
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .feature {
+            background: #f1f1f1;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+
+        .feature:hover {
+            transform: translateY(-5px);
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Criação de Sites Profissionais</h1>
+        <p>Transformamos negócios com sites modernos, responsivos e focados em aumentar suas vendas.</p>
+        <a href="https://wa.me/5568992493742" class="cta-button">Fale Conosco</a>
+    </header>
+
+    <nav>
+        <a href="#servicos">Serviços</a>
+        <a href="#por-que">Por que escolher?</a>
+        <a href="#faq">FAQ</a>
+        <a href="#features">Diferenciais</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <section id="servicos">
+        <h2>Nossos Serviços</h2>
+
+        <div class="service">
+            <h3>Criação de Sites para Empresas</h3>
+            <p>Desenvolvemos sites responsivos e modernos para todos os tipos de negócios. Seu site será sua principal ferramenta de vendas.</p>
+        </div>
+
+        <div class="service">
+            <h3>Automação com IA</h3>
+            <p>Chatbots inteligentes trabalhando 24h para você, melhorando o atendimento e aumentando as conversões.</p>
+        </div>
+
+        <div class="service">
+            <h3>Criação de Páginas de Vendas</h3>
+            <p>Páginas otimizadas para conversão, ideais para lançamentos e promoções de produtos ou serviços.</p>
+        </div>
+    </section>
+
+    <section id="por-que">
+        <h2>Por que escolher a AtomTech?</h2>
+        <ul>
+            <li>Atendimento humanizado: seus clientes nem perceberão que estão falando com uma IA.</li>
+            <li>Suporte por 30 dias após a entrega.</li>
+            <li>Serviços personalizados: peça quantas alterações quiser.</li>
+            <li>Mais de 50 projetos entregues com excelência.</li>
+            <li>Equipe especializada em design, desenvolvimento e automação.</li>
+        </ul>
+    </section>
+
+    <section id="faq">
+        <h2>Perguntas Frequentes (FAQ)</h2>
+
+        <h4>Por que investir em automação para sua empresa?</h4>
+        <p>Automação com IA reduz custos, melhora a eficiência e proporciona atendimento 24h, aumentando a satisfação e as vendas.</p>
+
+        <h4>Como um site pode aumentar suas vendas?</h4>
+        <p>Um site profissional cria confiança, melhora sua presença online e permite que clientes encontrem e comprem seus produtos ou serviços facilmente.</p>
+
+        <h4>Em quanto tempo meu site estará pronto?</h4>
+        <p>O prazo médio de entrega é de 7 a 15 dias, dependendo da complexidade do projeto.</p>
+
+        <h4>Meu site será seguro?</h4>
+        <p>Sim, implementamos boas práticas de segurança para proteger seus dados e os de seus clientes.</p>
+
+        <h4>Vocês oferecem manutenção?</h4>
+        <p>Sim, oferecemos planos de manutenção e suporte contínuo após o período de garantia.</p>
+    </section>
+
+    <section id="features">
+        <h2>Nossos Diferenciais</h2>
+        <div class="features">
+            <div class="feature">
+                <h4>Design Moderno</h4>
+                <p>Criamos layouts únicos e atrativos para valorizar sua marca.</p>
+            </div>
+            <div class="feature">
+                <h4>Responsividade Total</h4>
+                <p>Sites que se adaptam perfeitamente a celulares, tablets e desktops.</p>
+            </div>
+            <div class="feature">
+                <h4>Otimização SEO</h4>
+                <p>Seu site bem posicionado no Google e com maior alcance orgânico.</p>
+            </div>
+            <div class="feature">
+                <h4>Automação com IA</h4>
+                <p>Integração de chatbots inteligentes para melhorar atendimento e vendas.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2>Fale Conosco</h2>
+        <p>WhatsApp: <a href="https://wa.me/5568992493742">(68) 99249-3742</a> | <a href="https://wa.me/5568992011391">(68) 99201-1391</a></p>
+        <p>Instagram: <a href="https://instagram.com/atomtech2025">@atomtech2025</a></p>
+    </section>
+
+    <footer>
+        <p>© 2025 AtomTech - Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+
+</html>
